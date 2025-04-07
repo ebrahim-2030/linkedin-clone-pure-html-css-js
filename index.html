@@ -105,5 +105,309 @@
         </div>
       </div>
     </nav>
+
+    <!-- ================MAIN CONTAINER COMPONENT================  -->
+    <div class="container">
+      <!-- -------------------left-sidebar------------------- -->
+      <div class="left-sidebar">
+        <div class="sidebar-profile-box">
+          <img src="./images/cover-pic.png" width="100%" alt="" />
+          <div class="sidebar-profile-info">
+            <img src="./images/user-1.png" alt="" />
+            <h1>Rayan Walton</h1>
+            <h3>Web Developer At Microsoft</h3>
+            <ul>
+              <li>Your profile views <span>59</span></li>
+              <li>Your post views <span>488</span></li>
+              <li>Your connections <span>201</span></li>
+            </ul>
+          </div>
+          <div class="sidebar-profile-link">
+            <a href="#"><img src="./images/items.png" alt="" /> My items</a>
+            <a href="#"
+              ><img src="./images/premium.png" alt="" /> Try Premium</a
+            >
+          </div>
+        </div>
+
+        <div class="sidebar-activity" id="sidebarActivity">
+          <h3>RECENT</h3>
+          <a href="#"
+            ><img src="./images/recent.png" alt="" /> Web Development</a
+          >
+          <a href="#"
+            ><img src="./images/recent.png" alt="" /> User Interface</a
+          >
+          <a href="#"
+            ><img src="./images/recent.png" alt="" /> Online Learning</a
+          >
+          <a href="#"><img src="./images/recent.png" alt="" /> Learn Online</a>
+          <a href="#"><img src="./images/recent.png" alt="" /> Code Better</a>
+          <a href="#"
+            ><img src="./images/recent.png" alt="" /> Group Learning</a
+          >
+          <h3>GROUPS</h3>
+          <a href="#"
+            ><img src="./images/group.png" alt="" /> Web Design Group</a
+          >
+          <a href="#"
+            ><img src="./images/group.png" alt="" /> HTML & CSS Learners</a
+          >
+          <a href="#"
+            ><img src="./images/group.png" alt="" /> Python & JavaScrip Group</a
+          >
+          <a href="#"
+            ><img src="./images/group.png" alt="" /> Learn Coding Online</a
+          >
+          <h3>HASHTAGS</h3>
+          <a href="#"
+            ><img src="./images/hashtag.png" alt="" /> webdevelopment</a
+          >
+          <a href="#"
+            ><img src="./images/hashtag.png" alt="" /> userinterface</a
+          >
+          <a href="#"
+            ><img src="./images/hashtag.png" alt="" /> onlinelearning</a
+          >
+          <div class="discover-more-link">
+            <a href="#">Discover more</a>
+          </div>
+        </div>
+        <p id="showMoreLink" onclick="toggleAtivity()">Show more <b>+</b></p>
+      </div>
+      <!-- -------------------main-content------------------- -->
+      <div class="main-content">
+        <div class="create-post">
+          <div class="create-post-input">
+            <img src="./images/user-1.png" alt="" />
+            <textarea placeholder="write post..."></textarea>
+          </div>
+          <div class="create-post-link">
+            <li><img src="./images/photo.png" />Photo</li>
+            <li><img src="./images/video.png" />Video</li>
+            <li><img src="./images/event.png" />Event</li>
+            <li>Post</li>
+          </div>
+        </div>
+
+        <div class="sort-by">
+          <hr />
+          <p>
+            Sort by:
+            <span>top <img src="./images/down-arrow.png" alt="" /></span>
+          </p>
+        </div>
+
+        <div class="post">
+          <div class="post-author">
+            <img src="./images/user-4.png" alt="" />
+            <div>
+              <h1>Eli Lorry</h1>
+              <small>Founder and CEO at Gellelio | Angel Investor</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio id,
+            dignissimos ratione corrupti numquam aut, eaque voluptatibus in
+            reprehenderit veniam ut odit inventore. Assumenda rerum odio
+            laudantium minima.
+          </p>
+          <img src="./images/post-image-1.png" width="100%" />
+          <div class="post-stats">
+            <div>
+              <img src="./images/thumbsup.png" alt="" />
+              <img src="./images/love.png" alt="" />
+              <img src="./images/clap.png" alt="" />
+              <span class="liked-users">Mark Jackson and 75 others </span>
+            </div>
+            <div>
+              <span>22 comments &middot; 40 shares</span>
+            </div>
+          </div>
+
+          <div class="post-activity">
+            <div>
+              <img src="./images/user-1.png" class="post-activity-user-icon" />
+              <img
+                src="./images/down-arrow.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="./images/like.png" alt="" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="./images/comment.png" alt="" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="./images/share.png" alt="" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="./images/send.png" alt="" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-author">
+            <img src="./images/user-2.png" alt="" />
+            <div>
+              <h1>Benjamin Leo</h1>
+              <small>Founder and CEO at Gellelio | Angel Investor</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio id,
+            dignissimos ratione corrupti numquam aut, eaque voluptatibus in
+            reprehenderit veniam ut odit inventore. Assumenda rerum odio
+            laudantium minima.
+          </p>
+          <img src="./images/post-image-2.png" width="100%" />
+          <div class="post-stats">
+            <div>
+              <img src="./images/thumbsup.png" alt="" />
+              <img src="./images/love.png" alt="" />
+              <img src="./images/clap.png" alt="" />
+              <span class="liked-users">Mark Jackson and 75 others </span>
+            </div>
+            <div>
+              <span>45 comments &middot; 55 shares</span>
+            </div>
+          </div>
+
+          <div class="post-activity">
+            <div>
+              <img src="./images/user-1.png" class="post-activity-user-icon" />
+              <img
+                src="./images/down-arrow.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="./images/like.png" alt="" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="./images/comment.png" alt="" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="./images/share.png" alt="" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="./images/send.png" alt="" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+        <div class="post">
+          <div class="post-author">
+            <img src="./images/user-3.png" alt="" />
+            <div>
+              <h1>Opera James</h1>
+              <small>Founder and CEO at Gellelio | Angel Investor</small>
+              <small>2 hours ago</small>
+            </div>
+          </div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio id,
+            dignissimos ratione corrupti numquam aut, eaque voluptatibus in
+            reprehenderit veniam ut odit inventore. Assumenda rerum odio
+            laudantium minima.
+          </p>
+          <img src="./images/post-image-3.png" width="100%" />
+          <div class="post-stats">
+            <div>
+              <img src="./images/thumbsup.png" alt="" />
+              <img src="./images/love.png" alt="" />
+              <img src="./images/clap.png" alt="" />
+              <span class="liked-users">Mark Jackson and 75 others </span>
+            </div>
+            <div>
+              <span>45 comments &middot; 55 shares</span>
+            </div>
+          </div>
+
+          <div class="post-activity">
+            <div>
+              <img src="./images/user-1.png" class="post-activity-user-icon" />
+              <img
+                src="./images/down-arrow.png"
+                class="post-activity-arrow-icon"
+              />
+            </div>
+            <div class="post-activity-link">
+              <img src="./images/like.png" alt="" />
+              <span>Like</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="./images/comment.png" alt="" />
+              <span>Comment</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="./images/share.png" alt="" />
+              <span>Share</span>
+            </div>
+            <div class="post-activity-link">
+              <img src="./images/send.png" alt="" />
+              <span>Send</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------right-sidebar------------------- -->
+      <div class="right-sidebar">
+        <div class="sidebar-news">
+          <img src="./images/more.png" class="info-icon" />
+          <h3>Trending News</h3>
+          <a href="#">High demand for skilled manpower</a>
+          <span>1d ago &middot; 10, 843 readers</span>
+          <a href="#">High demand for skilled manpower</a>
+          <span>4 hour &middot; 11, 843 readers</span>
+          <a href="#">High demand for skilled manpower</a>
+          <span>18d ago &middot; 12, 83 readers</span>
+          <a href="#">High demand for skilled manpower</a>
+          <span>9 hour &middot; 10, 843 readers</span>
+          <a href="#">High demand for skilled manpower</a>
+          <span>6d ago &middot; 10, 843 readers</span>
+          <a href="#">High demand for skilled manpower</a>
+          <span>11 hours ago &middot; 10, 843 readers</span>
+
+          <a href="#" class="read-more-link">Read More</a>
+        </div>
+
+        <div class="sidebar-ad">
+          <small>ad&middot;&middot;&middot;</small>
+          <p>Master the 5 principles of web design</p>
+          <div>
+            <img src="./images/user-1.png" alt="" />
+            <img src="./images/mi-logo.png" alt="" />
+          </div>
+          <b>Brand and Demand in Xiaomi</b>
+          <a href="#" class="add-link">Learn More</a>
+        </div>
+
+        <div class="sidebar-useful-links">
+          <a href="#">About</a>
+          <a href="#">Accessability</a>
+          <a href="#">Help Center</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Advertising</a>
+          <a href="#">Get the App</a>
+          <a href="#">More</a>
+
+          <div class="copyright-msg">
+            <img src="./images/logo.png" alt="" />
+            <p>Linkedup &#169; 2022. All right Reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
