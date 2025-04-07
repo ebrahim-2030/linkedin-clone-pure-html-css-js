@@ -4,6 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linkify | Profile Page</title>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- ================NAVBAR COMPONENT================  -->
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="./index.html" class="logo"
+          ><img src="./images/logo.png" alt=""
+        /></a>
+        <div class="search-box">
+          <img src="./images/search.png" alt="" />
+          <input type="text" placeholder="Search" />
+        </div>
+      </div>
+      <div class="navbar-center">
+        <ul>
+          <li>
+            <a href="#" class="active-link"
+              ><img src="./images/home.png" alt="" /> <span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/network.png" alt="" />
+              <span>My Network</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/jobs.png" alt="" /> <span>Jobs</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/message.png" alt="" />
+              <span>Messeging</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/notification.png" alt="" />
+              <span>Notifications</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <div class="online">
+          <img
+            src="./images/user-1.png"
+            class="nav-profile-img"
+            alt=""
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+      <!--  -------------Profile-Drop-Down-Menu------------- -->
+      <div class="profiel-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+          <div class="user-info">
+            <img src="./images/user-1.png" alt="" />
+            <div>
+              <h3>Rayan Walton</h3>
+              <a href="#">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <a href="#" class="profile-menu-link">
+            <img src="./images/feedback.png" alt="" />
+            <p>Give Feedback</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="./images/setting.png" alt="" />
+            <p>Settings & Privacy</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="./images/help.png" alt="" />
+            <p>Help & Support</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="./images/display.png" alt="" />
+            <p>Display & Accessability</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="./images/logout.png" alt="" />
+            <p>Logout</p>
+            <span>></span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </body>
 </html>
